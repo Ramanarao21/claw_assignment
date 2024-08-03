@@ -1,0 +1,32 @@
+@import "../../mixins.scss";
+
+.data-container {
+      margin-top: 20px;
+      background-color: var(--bg);
+      padding: 16px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     
+      @include md {
+        width: 300px;
+      }
+      h2 {
+        color: crimson;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      p {
+        color: var(--textColor);
+      }
+      @media screen and (min-width: 768px) {
+        width: 400px;
+      }
+    }
+
+ 
+ 
+
